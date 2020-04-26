@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.transaction {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.th_1 {
+	background-color: rgb(115, 115, 248);
+	text-transform: uppercase;
+	height: 50px;
+	font-size: 20px;
+}
+
+.th_2 {
+	height: 50px;
+	border: solid 1px #d1acd1;
+}
+
+.tr:nth-of-type(even) {
+	background-color: #aa92e6;
+}
